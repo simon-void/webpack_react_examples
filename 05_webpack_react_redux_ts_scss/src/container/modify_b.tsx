@@ -27,7 +27,7 @@ class BModificator extends React.Component<BModificatorProps, BModificatorState>
     render() {
         return (<div>
             B: {this.props.counterB}<br />
-            update value (only ints):<br />
+            update B asynchronously (1s delay, only ints):<br />
             <input
                 value={this.state.textB}
                 onChange={this.handleUpdateB}
