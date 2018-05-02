@@ -3,12 +3,15 @@
       "outDir": "./dist/",
       "moduleResolution": "node",
       "sourceMap": true,
-      "noImplicitAny": true,
-      "strictNullChecks": true,
       "module": "es6",
       "target": "es2017",
       "jsx": "react",
-      "allowJs": true
+      "allowJs": true,
+      "noEmitOnError": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
     },
     "exclude": [
       "node_modules",
